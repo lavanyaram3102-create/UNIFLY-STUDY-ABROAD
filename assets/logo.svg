@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simple UNIFLY logo SVG (placeholder) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120" role="img" aria-labelledby="title">
+  <title id="title">UNIFLY Study Abroad logo</title>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b2a4d" />
+      <stop offset="100%" stop-color="#0b2a4d" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b67a2a" />
+      <stop offset="100%" stop-color="#b67a2a" />
+    </linearGradient>
+  </defs>
+  <!-- Globe / book mark (abstract) -->
+  <g transform="translate(12,6)">
+    <rect x="0" y="0" width="96" height="96" rx="12" fill="none"/>
+    <path d="M18 70 C26 50, 40 44, 48 50 C56 44, 70 50, 78 70 L78 78 L18 78 Z" fill="#0b2a4d" opacity="0.9" />
+    <path d="M36 18 Q48 6, 60 18 L56 22 Q48 14, 40 22 Z" fill="#b67a2a"/>
+    <!-- airplane swoosh -->
+    <path d="M84 12 C110 20, 120 44, 140 46" stroke="#b67a2a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <polygon points="142,44 150,40 146,48" fill="#b67a2a" />
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(120,36)">
+    <text x="0" y="26" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="36" fill="#0b2a4d">UNI<tspan fill="#b67a2a">FLY</tspan></text>
+    <text x="0" y="52" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="12" fill="#6b7280">STUDY ABROAD</text>
+  </g>
+</svg>
