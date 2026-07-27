@@ -1,7 +1,7 @@
 UNIFLY Study Abroad — Website scaffold (Formsubmit)
 
-Files updated to send inquiries to enquiry@unflystudyabroad.com using Formsubmit.co:
-- index.html (contact form action set to https://formsubmit.co/enquiry@unflystudyabroad.com)
+Files updated to send inquiries to enquiry@uniflystudyabroad.com using Formsubmit.co:
+- index.html (contact form action set to https://formsubmit.co/enquiry@uniflystudyabroad.com)
 - js/script.js (generic AJAX submit handler with fallback to normal POST)
 
 How Formsubmit works (quick):
