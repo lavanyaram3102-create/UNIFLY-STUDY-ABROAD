@@ -1,15 +1,20 @@
-Added placeholder brand assets (logo.svg and favicon.svg) and updated index.html to reference them.
+Added vector asset set (SVG variants) optimized for header, square mark, and social preview.
 
-Files added/updated:
-- assets/logo.svg (placeholder SVG logo)
-- assets/favicon.svg (simple SVG favicon)
-- index.html (updated to use assets/logo.svg and include favicon + OG meta)
+Files added:
+- assets/logo-header.svg (header wordmark + emblem)
+- assets/logo-square.svg (compact emblem mark for avatars/favicons)
+- assets/social-preview.svg (1200x630 social preview)
+
+Updated:
+- index.html now references assets/logo-header.svg for the header logo and assets/social-preview.svg for og:image
 
 Notes:
-- The SVGs are placeholders you can replace with final artwork. SVG is editable and scales well; if you prefer a PNG, provide the image and I will add it as assets/logo.png.
-- After deploying, the favicon will appear in modern browsers. Some older browsers may not support SVG favicons; if you need an ICO file, I can add one.
+- All new files are SVG vectors (scalable). If you later want PNG exports at specific sizes I can either rasterize them here as SVG-in-PNG (same Option A approach) or provide commands for local rasterization.
+- The existing assets/logo.png remains in the repo; index.html now prefers the header SVG.
 
-Next steps I can take:
-- Replace the placeholder with a custom PNG or multi-size favicon if you provide assets.
-- Add a brand color CSS variables file and update the site to use them consistently.
-- Create a social preview image (1200x630) for richer link previews.
+Next steps I can take at your request:
+- Produce PNG exports (400x120, 800x240, 1200x630) from these SVGs and add them to the repo.
+- Add multi-size favicons (ICO + PNG) using the square mark.
+- Tweak colors, spacing, or create monochrome variants.
+
+If you'd like PNG exports or favicons now, tell me which sizes and I’ll add them (Option A-style: saving SVG as .png file which works in modern browsers, or you can supply exact raster files).

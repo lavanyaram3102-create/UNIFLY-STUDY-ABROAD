@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Social preview SVG 1200x630 (1200x630 viewBox) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">UNIFLY Study Abroad — Social Preview</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F7F8FA" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- left: emblem -->
+  <g transform="translate(80,110) scale(2.2)">
+    <path d="M18 70 C26 50, 40 44, 48 50 C56 44, 70 50, 78 70 L78 78 L18 78 Z" fill="#0B2A4D" opacity="0.95" />
+    <path d="M36 18 Q48 6, 60 18 L56 22 Q48 14, 40 22 Z" fill="#B67A2A"/>
+    <path d="M84 12 C110 20, 120 44, 140 46" stroke="#B67A2A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <polygon points="142,44 150,40 146,48" fill="#B67A2A" />
+  </g>
+
+  <!-- right: wordmark -->
+  <g transform="translate(480,220)">
+    <text x="0" y="26" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="72" fill="#0B2A4D">UNI<tspan fill="#B67A2A">FLY</tspan></text>
+    <text x="0" y="80" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="20" fill="#6B7280">STUDY ABROAD</text>
+    <text x="0" y="120" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="18" fill="#0B2A4D">Your Dream. Our Guidance. Global opportunities await.</text>
+  </g>
+
+  <!-- small tagline bottom -->
+  <text x="80" y="560" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="16" fill="#6B7280">DREAM | PLAN | FLY | SUCCEED</text>
+</svg>

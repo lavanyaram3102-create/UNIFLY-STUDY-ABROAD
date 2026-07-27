@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Square mark (compact emblem only) suitable for avatars/favicons -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">UNIFLY mark</title>
+  <rect width="200" height="200" rx="20" fill="#FFFFFF"/>
+  <g transform="translate(30,30) scale(1.4)">
+    <path d="M18 70 C26 50, 40 44, 48 50 C56 44, 70 50, 78 70 L78 78 L18 78 Z" fill="#0B2A4D" opacity="0.95" />
+    <path d="M36 18 Q48 6, 60 18 L56 22 Q48 14, 40 22 Z" fill="#B67A2A"/>
+    <path d="M84 12 C110 20, 120 44, 140 46" stroke="#B67A2A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <polygon points="142,44 150,40 146,48" fill="#B67A2A" />
+  </g>
+</svg>
