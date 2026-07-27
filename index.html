@@ -60,14 +60,20 @@
       <div class="container">
         <h3>Contact Us</h3>
         <p>Fill in the details and we'll get back to you within 24 hours.</p>
-        <form action="#" onsubmit="alert('Form submitted (demo)'); return false;">
+        <!-- Formspree-ready form. Replace YOUR_FORM_ID with your Formspree form ID. -->
+        <!-- You can also keep the action set and submit without JS. -->
+        <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-formspree="YOUR_FORM_ID">
           <div class="form-row">
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
           </div>
           <textarea name="message" rows="5" placeholder="How can we help you?" required></textarea>
+          <!-- Optional: subject and reply-to for Formspree -->
+          <input type="hidden" name="_subject" value="New inquiry from UNIFLY website">
+          <input type="hidden" name="_replyto" value="">
           <button type="submit">Send Message</button>
         </form>
+        <p id="formStatus" aria-live="polite" style="margin-top:12px"></p>
       </div>
     </section>
   </main>
